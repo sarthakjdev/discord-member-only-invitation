@@ -5,12 +5,10 @@ author: 'Sarthak Jain'
 inputs:
   GITHUB_TOKEN:
     description: Github token
+    required: true
   organization:
     description: Name of the organization to which you would like to invite contributors.
-    required: false
-  repo-token:
-    description: 'GitHub token for repo'
-    required: false
+    required: true
   comment:
     description: A comment which will be posted on the issue.
     required: false
