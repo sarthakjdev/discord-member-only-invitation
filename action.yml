@@ -14,5 +14,4 @@ inputs:
     required: false
     default: Invitation sent for the GitHub Organisation. Welcome to the community
   runs:
-    using: node16
     main: dist/index.js
