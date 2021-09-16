@@ -1,0 +1,19 @@
+{
+  "name": "github-bot",
+  "version": "1.0.0",
+  "description": "A github automation bot in integration with github actions",
+  "main": "index.js",
+  "author": "Sarthak Jain contact.sarthakjain@gmail.com",
+  "scripts": {
+    "build":"ncc build ./action.js -o dist ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@vercel/ncc": "^0.31.1",
+    "discord.js": "^13.1.0",
+    "p-timeout": "^5.0.0",
+    "p-wait-for": "^4.1.0"
+  }
+}

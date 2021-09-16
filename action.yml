@@ -1,0 +1,18 @@
+name: 'Discord member invite only'
+description: 'Checks if the request creator is a member of our server or not. '
+author: 'Sarthak Jain'
+
+inputs:
+  organization:
+    description: Name of the organization to which you would like to invite contributors.
+    required: true
+  repo-token:
+    description: 'GitHub token for repo'
+    required: true
+  comment:
+    description: A comment which will be posted on the issue.
+    required: false
+    default: Invitation sent for the GitHub Organisation. Welcome to the community
+  runs:
+    using: node16
+    main: dist/index.js
