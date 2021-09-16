@@ -3,15 +3,18 @@ description: 'Checks if the request creator is a member of our server or not. '
 author: 'Sarthak Jain'
 
 inputs:
+  GITHUB_TOKEN:
+    description: Github token
   organization:
     description: Name of the organization to which you would like to invite contributors.
-    required: true
+    required: false
   repo-token:
     description: 'GitHub token for repo'
-    required: true
+    required: false
   comment:
     description: A comment which will be posted on the issue.
     required: false
     default: Invitation sent for the GitHub Organisation. Welcome to the community
   runs:
-    main: dist/index.js
+    using: node16
+    main: 'dist/index.js'
