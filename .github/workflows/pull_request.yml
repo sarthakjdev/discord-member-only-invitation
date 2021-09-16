@@ -1,7 +1,7 @@
 name: Discord member check
 
-on: pull_request
-    types: [opened]
+on: 
+  pull_request
 
 jobs:
   test:
