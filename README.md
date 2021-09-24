@@ -1,2 +1,2 @@
 # discord-member-only-invitation
-  
+  .
