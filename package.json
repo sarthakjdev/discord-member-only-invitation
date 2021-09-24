@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "A github automation bot in integration with github actions",
   "main": "index.js",
-  "author": "Sarthak Jain contact.sarthakjain@gmail.com",
+  "author": "Sarthak Jain <contact.sarthakjain@gmail.com>",
   "scripts": {
-    "build":"ncc build ./action.js -o dist ",
+    "build": "ncc build ./action.js -o dist ",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
